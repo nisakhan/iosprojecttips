@@ -14,6 +14,7 @@
 		821A39071C333A9700FB7111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821A39051C333A9700FB7111 /* LaunchScreen.storyboard */; };
 		821A39121C333A9700FB7111 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821A39111C333A9700FB7111 /* tipsTests.swift */; };
 		821A391D1C333A9700FB7111 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821A391C1C333A9700FB7111 /* tipsUITests.swift */; };
+		821A392D1C335AF400FB7111 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821A392C1C335AF400FB7111 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		821A39181C333A9700FB7111 /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		821A391C1C333A9700FB7111 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		821A391E1C333A9700FB7111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821A392C1C335AF400FB7111 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				821A38FC1C333A9700FB7111 /* AppDelegate.swift */,
 				821A38FE1C333A9700FB7111 /* ViewController.swift */,
 				821A39001C333A9700FB7111 /* Main.storyboard */,
+				821A392C1C335AF400FB7111 /* SettingsViewController.swift */,
 				821A39031C333A9700FB7111 /* Assets.xcassets */,
 				821A39051C333A9700FB7111 /* LaunchScreen.storyboard */,
 				821A39081C333A9700FB7111 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				821A38FF1C333A9700FB7111 /* ViewController.swift in Sources */,
 				821A38FD1C333A9700FB7111 /* AppDelegate.swift in Sources */,
+				821A392D1C335AF400FB7111 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hello.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Hello.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
